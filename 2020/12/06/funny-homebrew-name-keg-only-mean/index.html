@@ -26,19 +26,22 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"nevermore-dh.github.io","root":"/","images":"/images","scheme":"Mist","version":"8.1.0","exturl":true,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="读不在三更五鼓 功只怕一曝十寒">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Van&#39;s Blog">
-<meta property="og:url" content="https://nevermore-dh.github.io/archives/2020/12/index.html">
+<meta name="description" content="转自 有趣的 Homebrew 命名邏輯-小蟹的Rails心得筆記  首先， brew 本身是酿造、酿酒的意思，会用这个字的原因是 homebrew 的安装方式为下载 source code 回来做编译，由于是在自己电脑做 local compile 编译套件，所以这个工具叫做 homebrew 自家酿酒。酿酒需要有配方 formula，当你需要安装套件时，流程就是下 brew 命令去根据配方 f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="有趣的Homebrew 命名及 keg-only 的意思">
+<meta property="og:url" content="https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/index.html">
 <meta property="og:site_name" content="Van&#39;s Blog">
-<meta property="og:description" content="读不在三更五鼓 功只怕一曝十寒">
+<meta property="og:description" content="转自 有趣的 Homebrew 命名邏輯-小蟹的Rails心得筆記  首先， brew 本身是酿造、酿酒的意思，会用这个字的原因是 homebrew 的安装方式为下载 source code 回来做编译，由于是在自己电脑做 local compile 编译套件，所以这个工具叫做 homebrew 自家酿酒。酿酒需要有配方 formula，当你需要安装套件时，流程就是下 brew 命令去根据配方 f">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-12-06T15:22:51.400Z">
+<meta property="article:modified_time" content="2020-12-06T16:08:25.979Z">
 <meta property="article:author" content="Van">
-<meta property="article:tag" content="PHP Go Nginx MySQL Redis Memcache Docker Linux Mac">
+<meta property="article:tag" content="Mac">
+<meta property="article:tag" content="Homebrew">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://nevermore-dh.github.io/archives/2020/12/">
+<link rel="canonical" href="https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/">
 
 
 <script data-pjax class="page-configurations">
@@ -46,11 +49,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
-<title>归档 | Van's Blog</title>
+<title>有趣的Homebrew 命名及 keg-only 的意思 | Van's Blog</title>
   
 
 
@@ -293,150 +296,160 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 6 篇日志。 继续努力。</span>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpeg">
+      <meta itemprop="name" content="Van">
+      <meta itemprop="description" content="读不在三更五鼓 功只怕一曝十寒">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Van's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          有趣的Homebrew 命名及 keg-only 的意思
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-12-06 23:22:51" itemprop="dateCreated datePublished" datetime="2020-12-06T23:22:51+08:00">2020-12-06</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-12-07 00:08:25" itemprop="dateModified" datetime="2020-12-07T00:08:25+08:00">2020-12-07</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Mac-Homebrew/" itemprop="url" rel="index"><span itemprop="name">Mac Homebrew</span></a>
+        </span>
+    </span>
+
+  
       </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>508</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><code>转自</code> <span class="exturl" data-url="aHR0cHM6Ly93aWxkamNydC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yOTE4MjA0NC10aGUtbmFtaW5nLWxvZ2ljLWZyb20taG9tZWJyZXc=">有趣的 Homebrew 命名邏輯-小蟹的Rails心得筆記<i class="fa fa-external-link-alt"></i></span> </p>
+<p>首先， <strong>brew</strong> 本身是酿造、酿酒的意思，会用这个字的原因是 <strong>homebrew</strong> 的安装方式为下载 <strong>source code</strong> 回来做编译，由于是在自己电脑做 <strong>local compile</strong> 编译套件，所以这个工具叫做 <strong>homebrew</strong> 自家酿酒。<br>酿酒需要有配方 <strong>formula</strong>，当你需要安装套件时，流程就是下 <strong>brew</strong> 命令去根据配方 <strong>formula</strong>, 酿造出一桶（ <strong>keg</strong>）酒来。所以 <strong>keg</strong> 指的是整个编译完成的套件资料夹。<br>再来，放置套件的位置在 <strong>/usr/local/Cellar/**， **Cellar</strong> 就是地窖，一桶一桶酿好的酒当然要存放在地窖里囖！所以编译安成的套件资料夹 <strong>keg</strong> 预设目录在 <strong>/usr/local/Cellar/**。<br>最后回到「</strong>keg-only<strong>」整个词，字面上意思现在就很清除，表示这个套件只会存放在桶子里，不会跑出桶子外。实际上的行为是 **brew</strong> 不会帮你做 <strong>symlink</strong> 到 <strong>/usr/local</strong>，避免你的原生系统内还有一套 <strong>readline</strong> 而打架，所以提示消息说 <strong>readline</strong> 套件是 <strong>keg-only</strong>。<br>至此，希望你通过上面的解释了解 <strong>Homebrew</strong> 相关有趣的命名～</p>
+<p>以上，Van(完)。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-06T23:23:25+08:00"
-              content="2020-12-06">
-          12-06
-        </time>
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Van
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/" title="有趣的Homebrew 命名及 keg-only 的意思">https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC96aC1DTg=="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
       </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/06/CentOS8-docker-docker-compose/" itemprop="url">
-            <span itemprop="name">CentOS8 安装 docker 和 docker-compose</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-06T23:23:17+08:00"
-              content="2020-12-06">
-          12-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/06/docker-compose-dnmp/" itemprop="url">
-            <span itemprop="name">docker-compose编排Nginx+PHP74&PHP56+Redis+Memcached环境</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-06T23:23:06+08:00"
-              content="2020-12-06">
-          12-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/06/Mac-Homebrew-mirror-replace/" itemprop="url">
-            <span itemprop="name">Mac Homebrew 国内镜像源替换或重置</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-06T23:22:51+08:00"
-              content="2020-12-06">
-          12-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/06/funny-homebrew-name-keg-only-mean/" itemprop="url">
-            <span itemprop="name">有趣的Homebrew 命名及 keg-only 的意思</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-05T17:42:04+08:00"
-              content="2020-12-05">
-          12-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/05/hexo-plugins/" itemprop="url">
-            <span itemprop="name">Hexo NexT theme & plugins try</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-12-05T02:16:26+08:00"
-              content="2020-12-05">
-          12-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/05/Hexo-blog-init/" itemprop="url">
-            <span itemprop="name">Hexo 博客搭建</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
-    </div>
   </div>
-  
-  
-  
+</div>
 
+          <div class="post-tags">
+              <a href="/tags/Mac/" rel="tag"># Mac</a>
+              <a href="/tags/Homebrew/" rel="tag"># Homebrew</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/12/05/hexo-plugins/" rel="prev" title="Hexo NexT theme & plugins try">
+                  <i class="fa fa-chevron-left"></i> Hexo NexT theme & plugins try
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/12/06/Mac-Homebrew-mirror-replace/" rel="next" title="Mac Homebrew 国内镜像源替换或重置">
+                  Mac Homebrew 国内镜像源替换或重置 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -601,6 +614,25 @@ document.addEventListener('pjax:success', () => {
     </script>
 
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '47cd279c3930139c8827',
+      clientSecret: '4f132852ff6dc542b1c3f2bf52ce32308277140d',
+      repo        : 'Nevermore-dh.github.io',
+      owner       : 'Nevermore-dh',
+      admin       : ['Nevermore-dh'],
+      id          : '3c7ff8a1fda02a76149bc70a0cff972f',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
     </div>
 </body>

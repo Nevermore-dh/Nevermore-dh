@@ -2,23 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/CentOS8-docker-docker-compose/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/05/hexo-plugins/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/05/Hexo-blog-init/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/docker-compose-dnmp/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/Mac-Homebrew-mirror-replace/</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nevermore-dh.github.io/404.html</loc>
     
     <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nevermore-dh.github.io/2020/12/05/hello-blog/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nevermore-dh.github.io/2020/12/05/hello-world/</loc>
-    
-    <lastmod>2020-12-05</lastmod>
     
   </url>
   
@@ -46,21 +74,70 @@
 
   
   <url>
-    <loc>https://nevermore-dh.github.io/tags/Hexo-blog/</loc>
+    <loc>https://nevermore-dh.github.io/tags/CentOS/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://nevermore-dh.github.io/tags/BlogTry/</loc>
+    <loc>https://nevermore-dh.github.io/tags/CentOS8/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://nevermore-dh.github.io/tags/BlogStudy/</loc>
+    <loc>https://nevermore-dh.github.io/tags/Docker/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/docker-compose/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/Hexo/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/Mac/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/Homebrew/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/DNMP/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/NexT/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/tags/gitalk/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -69,7 +146,21 @@
 
   
   <url>
-    <loc>https://nevermore-dh.github.io/categories/Hexo/</loc>
+    <loc>https://nevermore-dh.github.io/categories/Docker%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2020-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nevermore-dh.github.io/categories/Mac-Homebrew/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

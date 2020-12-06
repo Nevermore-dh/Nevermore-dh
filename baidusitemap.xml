@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nevermore-dh.github.io/2020/12/05/hello-blog/</loc>
+    <loc>https://nevermore-dh.github.io/2020/12/06/CentOS8-docker-docker-compose/</loc>
     <lastmod>2020-12-06</lastmod>
   </url>
   <url>
-    <loc>https://nevermore-dh.github.io/2020/12/05/hello-world/</loc>
-    <lastmod>2020-12-05</lastmod>
+    <loc>https://nevermore-dh.github.io/2020/12/05/hexo-plugins/</loc>
+    <lastmod>2020-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/funny-homebrew-name-keg-only-mean/</loc>
+    <lastmod>2020-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/05/Hexo-blog-init/</loc>
+    <lastmod>2020-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/docker-compose-dnmp/</loc>
+    <lastmod>2020-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://nevermore-dh.github.io/2020/12/06/Mac-Homebrew-mirror-replace/</loc>
+    <lastmod>2020-12-06</lastmod>
   </url>
 </urlset> 
