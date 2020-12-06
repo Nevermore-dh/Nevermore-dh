@@ -2,49 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wuvan.gitee.io/2020/12/05/hello-blog/</loc>
+    <loc>https://nevermore-dh.github.io/2020/12/05/hello-blog/</loc>
     
     <lastmod>2020-12-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wuvan.gitee.io/404/index.html</loc>
+    <loc>https://nevermore-dh.github.io/2020/12/05/hello-world/</loc>
     
     <lastmod>2020-12-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wuvan.gitee.io/schedule/index.html</loc>
+    <loc>https://nevermore-dh.github.io/tags/index.html</loc>
     
     <lastmod>2020-12-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wuvan.gitee.io/about/index.html</loc>
-    
-    <lastmod>2020-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wuvan.gitee.io/2020/12/05/hello-world/</loc>
-    
-    <lastmod>2020-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wuvan.gitee.io/tags/index.html</loc>
-    
-    <lastmod>2020-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wuvan.gitee.io/categories/index.html</loc>
+    <loc>https://nevermore-dh.github.io/categories/index.html</loc>
     
     <lastmod>2020-12-05</lastmod>
     
@@ -52,7 +31,7 @@
   
 
   <url>
-    <loc>https://wuvan.gitee.io/</loc>
+    <loc>https://nevermore-dh.github.io/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -60,21 +39,21 @@
 
   
   <url>
-    <loc>https://wuvan.gitee.io/tags/Hexo-blog/</loc>
+    <loc>https://nevermore-dh.github.io/tags/Hexo-blog/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wuvan.gitee.io/tags/BlogTry/</loc>
+    <loc>https://nevermore-dh.github.io/tags/BlogStudy/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wuvan.gitee.io/tags/BlogStudy/</loc>
+    <loc>https://nevermore-dh.github.io/tags/BlogTry/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -83,7 +62,7 @@
 
   
   <url>
-    <loc>https://wuvan.gitee.io/categories/Hexo/</loc>
+    <loc>https://nevermore-dh.github.io/categories/Hexo/</loc>
     <lastmod>2020-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
