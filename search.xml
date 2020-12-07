@@ -90,21 +90,6 @@
       </tags>
   </entry>
   <entry>
-    <title>有趣的Homebrew 命名及 keg-only 的意思</title>
-    <url>/2020/12/06/funny-homebrew-name-keg-only-mean/</url>
-    <content><![CDATA[<p><code>转自</code> <span class="exturl" data-url="aHR0cHM6Ly93aWxkamNydC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yOTE4MjA0NC10aGUtbmFtaW5nLWxvZ2ljLWZyb20taG9tZWJyZXc=">有趣的 Homebrew 命名邏輯-小蟹的Rails心得筆記<i class="fa fa-external-link-alt"></i></span> </p>
-<p>首先， <strong>brew</strong> 本身是酿造、酿酒的意思，会用这个字的原因是 <strong>homebrew</strong> 的安装方式为下载 <strong>source code</strong> 回来做编译，由于是在自己电脑做 <strong>local compile</strong> 编译套件，所以这个工具叫做 <strong>homebrew</strong> 自家酿酒。<br>酿酒需要有配方 <strong>formula</strong>，当你需要安装套件时，流程就是下 <strong>brew</strong> 命令去根据配方 <strong>formula</strong>, 酿造出一桶（ <strong>keg</strong>）酒来。所以 <strong>keg</strong> 指的是整个编译完成的套件资料夹。<br>再来，放置套件的位置在 <strong>/usr/local/Cellar/**， **Cellar</strong> 就是地窖，一桶一桶酿好的酒当然要存放在地窖里囖！所以编译安成的套件资料夹 <strong>keg</strong> 预设目录在 <strong>/usr/local/Cellar/**。<br>最后回到「</strong>keg-only<strong>」整个词，字面上意思现在就很清除，表示这个套件只会存放在桶子里，不会跑出桶子外。实际上的行为是 **brew</strong> 不会帮你做 <strong>symlink</strong> 到 <strong>/usr/local</strong>，避免你的原生系统内还有一套 <strong>readline</strong> 而打架，所以提示消息说 <strong>readline</strong> 套件是 <strong>keg-only</strong>。<br>至此，希望你通过上面的解释了解 <strong>Homebrew</strong> 相关有趣的命名～</p>
-<p>以上，Van(完)。</p>
-]]></content>
-      <categories>
-        <category>Mac Homebrew</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Homebrew</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>docker-compose编排Nginx+PHP74&amp;PHP56+Redis+Memcached环境</title>
     <url>/2020/12/06/docker-compose-dnmp/</url>
     <content><![CDATA[<h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p>整体目录结构如下， <strong>github</strong> 项目地址：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL05ldmVybW9yZS1kaC9kb2NrZXItbG5tcA==">docker-lnmp<i class="fa fa-external-link-alt"></i></span></p>
@@ -264,6 +249,21 @@
         <tag>Docker</tag>
         <tag>docker-compose</tag>
         <tag>DNMP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有趣的Homebrew 命名及 keg-only 的意思</title>
+    <url>/2020/12/06/funny-homebrew-name-keg-only-mean/</url>
+    <content><![CDATA[<p><code>转自</code> <span class="exturl" data-url="aHR0cHM6Ly93aWxkamNydC5waXhuZXQubmV0L2Jsb2cvcG9zdC8yOTE4MjA0NC10aGUtbmFtaW5nLWxvZ2ljLWZyb20taG9tZWJyZXc=">有趣的 Homebrew 命名邏輯-小蟹的Rails心得筆記<i class="fa fa-external-link-alt"></i></span> </p>
+<p>首先， <strong>brew</strong> 本身是酿造、酿酒的意思，会用这个字的原因是 <strong>homebrew</strong> 的安装方式为下载 <strong>source code</strong> 回来做编译，由于是在自己电脑做 <strong>local compile</strong> 编译套件，所以这个工具叫做 <strong>homebrew</strong> 自家酿酒。<br>酿酒需要有配方 <strong>formula</strong>，当你需要安装套件时，流程就是下 <strong>brew</strong> 命令去根据配方 <strong>formula</strong>, 酿造出一桶（ <strong>keg</strong>）酒来。所以 <strong>keg</strong> 指的是整个编译完成的套件资料夹。<br>再来，放置套件的位置在 <strong>/usr/local/Cellar/**， **Cellar</strong> 就是地窖，一桶一桶酿好的酒当然要存放在地窖里囖！所以编译安成的套件资料夹 <strong>keg</strong> 预设目录在 <strong>/usr/local/Cellar/**。<br>最后回到「</strong>keg-only<strong>」整个词，字面上意思现在就很清除，表示这个套件只会存放在桶子里，不会跑出桶子外。实际上的行为是 **brew</strong> 不会帮你做 <strong>symlink</strong> 到 <strong>/usr/local</strong>，避免你的原生系统内还有一套 <strong>readline</strong> 而打架，所以提示消息说 <strong>readline</strong> 套件是 <strong>keg-only</strong>。<br>至此，希望你通过上面的解释了解 <strong>Homebrew</strong> 相关有趣的命名～</p>
+<p>以上，Van(完)。</p>
+]]></content>
+      <categories>
+        <category>Mac Homebrew</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Homebrew</tag>
       </tags>
   </entry>
   <entry>
